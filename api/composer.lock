@@ -1,0 +1,528 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "20363aa42f9483e0ae3b7d33f7cf3af3",
+    "packages": [
+        {
+            "name": "catfan/medoo",
+            "version": "v1.7.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/catfan/Medoo.git",
+                "reference": "2d675f73e23f63bbaeb9a8aa33318659a3d3c32f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/2d675f73e23f63bbaeb9a8aa33318659a3d3c32f",
+                "reference": "2d675f73e23f63bbaeb9a8aa33318659a3d3c32f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB database",
+                "ext-pdo_oci": "For Oracle database",
+                "ext-pdo_oci8": "For Oracle version 8 database",
+                "ext-pdo_pqsql": "For PostgreSQL database",
+                "ext-pdo_sqlite": "For SQLite database",
+                "ext-pdo_sqlsrv": "For MSSQL database on both Window/Liunx platform"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Medoo\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Angel Lai",
+                    "email": "angel@catfan.me"
+                }
+            ],
+            "description": "The lightweight PHP database framework to accelerate development",
+            "homepage": "https://medoo.in",
+            "keywords": [
+                "database",
+                "database library",
+                "lightweight",
+                "mariadb",
+                "mssql",
+                "mysql",
+                "oracle",
+                "php framework",
+                "postgresql",
+                "sql",
+                "sqlite"
+            ],
+            "time": "2020-02-11T08:20:42+00:00"
+        },
+        {
+            "name": "lindelius/php-jwt",
+            "version": "0.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lindelius/php-jwt.git",
+                "reference": "c54ca7609b63738a818c3a140e54a4591139971b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lindelius/php-jwt/zipball/c54ca7609b63738a818c3a140e54a4591139971b",
+                "reference": "c54ca7609b63738a818c3a140e54a4591139971b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "ext-openssl": "*",
+                "php": "^7.1",
+                "phpbench/phpbench": "^0.14",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lindelius\\JWT\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Lindelius",
+                    "homepage": "https://lindelius.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Convenience library for working with JSON Web Tokens (JWT) in PHP",
+            "homepage": "https://github.com/lindelius/php-jwt",
+            "keywords": [
+                "helpers",
+                "jwt",
+                "php"
+            ],
+            "time": "2019-03-01T23:00:55+00:00"
+        },
+        {
+            "name": "nikic/fast-route",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
+                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35|~5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "time": "2018-02-13T20:26:39+00:00"
+        },
+        {
+            "name": "pear2/net_routeros",
+            "version": "1.0.0b6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear2/Net_RouterOS.git",
+                "reference": "8af33b009ec51c09d3bc09f3986034f19f7c439c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear2/Net_RouterOS/zipball/8af33b009ec51c09d3bc09f3986034f19f7c439c",
+                "reference": "8af33b009ec51c09d3bc09f3986034f19f7c439c",
+                "shasum": ""
+            },
+            "require": {
+                "pear2/net_transmitter": ">=1.0.0b1",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "pear2/cache_shm": "dev-develop",
+                "pear2/console_color": "dev-develop",
+                "pear2/console_commandline": "dev-master",
+                "phpunit/phpunit": "@stable",
+                "squizlabs/php_codesniffer": "@stable"
+            },
+            "suggest": {
+                "ext-apc": "This, APCu or Wincache is required for persistent connections.",
+                "ext-apcu": "This, APC or Wincache is required for persistent connections.",
+                "ext-openssl": "Enables encrypted connections.",
+                "ext-wincache": "This, APC or APCu is required for persistent connections. Reccomended for Windows.",
+                "pear2/cache_shm": "Enables persistent connections.",
+                "pear2/console_color": "Enables colors in the console",
+                "pear2/console_commandline": "Enables the console"
+            },
+            "bin": [
+                "scripts/roscon.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PEAR2\\Net\\RouterOS\\": "src/",
+                    "PEAR2\\Net\\Transmitter\\": "vendor/pear2/net_transmitter/src/",
+                    "PEAR2\\Cache\\SHM": "vendor/pear2/cache_shm/src/",
+                    "PEAR2\\Console\\Color": "vendor/pear2/console_color/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Vasil Rangelov",
+                    "email": "boen.robot@gmail.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "This package allows you to read and write information from a RouterOS host using MikroTik's RouterOS API.",
+            "homepage": "http://pear2.github.com/Net_RouterOS/",
+            "keywords": [
+                "api",
+                "mikrotik",
+                "package",
+                "pear2",
+                "router",
+                "routeros"
+            ],
+            "time": "2017-05-22T15:42:06+00:00"
+        },
+        {
+            "name": "pear2/net_transmitter",
+            "version": "1.0.0b2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear2/Net_Transmitter.git",
+                "reference": "5abea5cd481ac9631f446cfb8fb415f4c43318f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear2/Net_Transmitter/zipball/5abea5cd481ac9631f446cfb8fb415f4c43318f6",
+                "reference": "5abea5cd481ac9631f446cfb8fb415f4c43318f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "@stable"
+            },
+            "suggest": {
+                "ext-apc": "This, APCu or Wincache is required for persistent connections.",
+                "ext-apcu": "This, APC or Wincache is required for persistent connections.",
+                "ext-openssl": "Enables encrypted connections.",
+                "ext-wincache": "This, APC or APCu is required for persistent connections. Reccomended for Windows.",
+                "pear2/cache_shm": "Enables persistent connections"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PEAR2\\Net\\Transmitter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Vasil Rangelov",
+                    "email": "boen.robot@gmail.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "A stream wrapper that ensures data integrity. Particularly useful for sockets.",
+            "homepage": "http://pear2.github.com/Net_Transmitter/",
+            "keywords": [
+                "Socket",
+                "integrity",
+                "network",
+                "networking",
+                "package",
+                "pear2",
+                "sockets"
+            ],
+            "time": "2017-05-13T13:41:29+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2018-01-21T07:42:36+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "slim/slim",
+            "version": "3.12.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimphp/Slim.git",
+                "reference": "1c9318a84ffb890900901136d620b4f03a59da38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/1c9318a84ffb890900901136d620b4f03a59da38",
+                "reference": "1c9318a84ffb890900901136d620b4f03a59da38",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
+                "nikic/fast-route": "^1.0",
+                "php": ">=5.5.0",
+                "pimple/pimple": "^3.0",
+                "psr/container": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0",
+                "squizlabs/php_codesniffer": "^2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\": "Slim"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "hello@joshlockhart.com",
+                    "homepage": "https://joshlockhart.com"
+                },
+                {
+                    "name": "Andrew Smith",
+                    "email": "a.smith@silentworks.co.uk",
+                    "homepage": "http://silentworks.co.uk"
+                },
+                {
+                    "name": "Rob Allen",
+                    "email": "rob@akrabat.com",
+                    "homepage": "http://akrabat.com"
+                },
+                {
+                    "name": "Gabriel Manricks",
+                    "email": "gmanricks@me.com",
+                    "homepage": "http://gabrielmanricks.com"
+                }
+            ],
+            "description": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs",
+            "homepage": "https://slimframework.com",
+            "keywords": [
+                "api",
+                "framework",
+                "micro",
+                "router"
+            ],
+            "time": "2019-11-28T17:40:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "pear2/net_routeros": 10,
+        "pear2/net_transmitter": 15
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,14 @@
+{
+    "require": {
+        "slim/slim":"^3.0",
+        "catfan/medoo":"^1.0",
+        "lindelius/php-jwt":"^0.8",
+        "pear2/net_routeros":"*@beta",
+        "pear2/net_transmitter":"^1.0.0a4"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app"
+        }
+    }
+}
